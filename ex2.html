@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex2</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,4,5,6];
+    function findX(x,arr) {
+        let mes = "";
+    for (let i =0; i < arr.length; i++){
+        if (arr[i] === x){
+            mes = `phan tu x nam tai vi tri:${i}`
+        }
+    }
+    if (mes == ""){
+        mes = `khong tim thay x trong mang`
+    }
+        return mes;
+    }
+    a = findX(7,arr)
+    console.log(a)
+</script>
+</body>
+</html>
